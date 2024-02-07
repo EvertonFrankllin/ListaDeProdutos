@@ -56,6 +56,20 @@ document,addEventListener('DOMContentLoaded', ()=>{
 //alert( 'sumiu')
     });
 
+    //Evento de scroll Para o topo da page
+    var element = document.querySelectorAll('.alinea img');
+
+    element.forEach((item, index)=>{
+        document.querySelectorAll('.alinea img')[index]
+        .addEventListener('click', ()=>{
+           //alert('Deu certo');
+            window.scroll({
+                top:0,
+                behavior:'smooth',
+            });
+        });
+    });
+
 });
 
 
