@@ -21,7 +21,7 @@ document,addEventListener('DOMContentLoaded', ()=>{
        let soma =0;
        itens.map((val)=>{
 
-        soma += parseFloat(val.valor * 'name=[quantidade]');
+        soma += parseFloat(val.valor);
 
         produto.innerHTML += produto=
         `
